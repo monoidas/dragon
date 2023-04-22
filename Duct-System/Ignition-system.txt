@@ -10,4 +10,4 @@ Heat based:
 x Flint stone (likely SiO2+FeS2) (potentially included in the burner teeth) - ruled out because of material demand, singular ignition and needed kinetic energy/collisions
 - (potentially catalyzed) Peroxide (H2O2?) decomposition (H2O2 would be produced by peroxidase and catalase just as in Brachininae)
 
-h2o2 decomp. would be preferred currently.
+peroxide decomposition would be preferred currently. For H2O2 decomposition the required mass would be too high to be viable (at least 180% of the incendole, if air is heated for ignition and at least 20% of the incendole if the air is not heated).

@@ -3,13 +3,15 @@ selected:
 - droplet size: 
 
 literature:
+Incendole:
 - density: 650kg/m^3
 - ignition temperature: 300°C
-- heat capacity: 1.7kJ/kg*K (at 25°C) 2.8kJ/kg*K (at 300°C)
+- heat capacity: 1.7kJ/kg/K (at 25°C) 2.8kJ/kg/K (at 300°C)
 - molar mass: 79 g/mol
+- vapor pressure: butane: 220 kPa (20°C) (butane is the only gas at 20°C, pentane has a boiling point of 36°C)
 air:
 - density: 1.2kg/m^3
-- heat capacity: 1kJ/kg*K
+- heat capacity: 1kJ/kg/K
 - composition: 21%O2 79%N2
 - molar mass: 
 H2O2:
@@ -31,3 +33,13 @@ thermo:
   The molar ratio thus is 1:13.75
   The mass ratio in air (21% O2) thus is 79g/mol *1mol: (8.75mol * 2*16g/mol)*100/21  =  79g:1333g
   This is a fuel-air ratio of L=17.87 or 94.4%Air 5.6%Incendole
+- H2O2 required mass for ignition (assuming only the incendole will be heated):
+  ignition temperature: 300°C (dT=280°K)
+  we assume constant heat capacity 2kJ/kg/K (i am too lazy for integration)
+  required Enthalpy per kg = 2kJ/kg/°K * 280°K = 560kJ/kg
+  560kJ/kg / 2887kJ/kg = 0.19 kg h2o2/kg of incendole (we assume complete energy transfer)
+- H2O2 required mass for ignition (assuming air will be heated as well)
+  collective heat capacity = 0.944*1kJ/kg/K + 0.056*2kJ/kg/K = 1.056kJ/kg/K
+  enthalpy = 280°K * 1.056 kJ/kg*K = 296kJ/kg of the air-incendole-mix
+  296kJ/kg / 2887 kJ/kg = 0.102 kg h2o2/kg of the air-incendole-mix (we assume complete energy transfer, which obviously is crazy, so we should keep in mind in reality we will need more h2o2)
+  0.102/0.056 = 1.8kg h2o2/kg of incendole (this would be very bad)
