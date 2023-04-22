@@ -1,0 +1,13 @@
+(x=ruled out)
+Potential methods:
+Activation-Energy based:
+- hypergolic starter reaction using an ATP-derivate and a organic peroxide
+- Catalyzed starter reaction (Methane+O2?)
+Bioelectricity:
+- Piezo-crystals
+- Electric-Eel-like Voltage igniter
+Heat based:
+x Flint stone (likely SiO2+FeS2) (potentially included in the burner teeth) - ruled out because of material demand, singular ignition and needed kinetic energy/collisions
+- (potentially catalyzed) Peroxide (H2O2?) decomposition (H2O2 would be produced by peroxidase and catalase just as in Brachininae)
+
+h2o2 decomp. would be preferred currently.

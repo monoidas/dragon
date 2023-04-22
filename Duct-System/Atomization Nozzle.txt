@@ -1,0 +1,15 @@
+(x=ruled out)
+Potential methods of atomization:
+Pressure-based:
+- hollow chamber dispersement (you get the liquid to spin inside a hollow chamber with the nozzle at the top. upon exiting the nozzle the fuel assumes a hollow conical shape. this leads to it dispersing. Normally the liquid is rotated by tangential feeding holes into the hollow chamber.)
+- jet-injection (the jet is so slim that it disperses due to surface tension and turbulence)
+Venturi-effect-based:
+- thin-film-venturi (the liquid flows onto a membrane around which the oxygen flows)
+- direct venturi (directly using the venturi-effect)
+Others:
+x rotational dispersement (a rotating disk which spins the aerosol away) - ruled out because of moving parts
+- ultrasound-dispersement (a vibrating membrane)
+- electrostatic dispersement
+- pre-combustion vaporisation
+
+Of these thin film venturi to me seems the most promising currently due to the fact that we should be able to separately control incendole-massflow (through overpressure in the vessel) and air-massflow (through lung overpressure) as opposed to purely venturi-based atomization methods.

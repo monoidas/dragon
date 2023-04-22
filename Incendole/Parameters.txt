@@ -1,0 +1,33 @@
+selected:
+- composition: hydrocarbons 4-7 C-Atoms to equal amounts (mass)
+- droplet size: 
+
+literature:
+- density: 650kg/m^3
+- ignition temperature: 300°C
+- heat capacity: 1.7kJ/kg*K (at 25°C) 2.8kJ/kg*K (at 300°C)
+- molar mass: 79 g/mol
+air:
+- density: 1.2kg/m^3
+- heat capacity: 1kJ/kg*K
+- composition: 21%O2 79%N2
+- molar mass: 
+H2O2:
+- Heating value: -2887kJ/kg 
+- Air production: 329 l/kg
+- heat capacity: 2,62J*K/g
+- density: 1,45g/cm^3
+- saturation vapor pressure: 20°C 1,9hPa  30°C 3,9hPa  50°C 13,2hPa
+
+
+derived:
+general:
+- collective density:
+  The volume per kilogram largely depends on the air. The fuel can be neglected.
+  rho= 1kg / (0.944kg/ 1.2kg/m^3) = 1.3kg/m^3
+thermo:
+- Air-Incendole-ratio for stochiometric flame:
+  Average amount of carbon atoms vs h2 atoms (i assume molar equal amounts instead of mass equal amounts) leads to the "average burning reaction" C5.5H13 + 8.75O2 -> 5.5CO2 + 6.5H2O
+  The molar ratio thus is 1:13.75
+  The mass ratio in air (21% O2) thus is 79g/mol *1mol: (8.75mol * 2*16g/mol)*100/21  =  79g:1333g
+  This is a fuel-air ratio of L=17.87 or 94.4%Air 5.6%Incendole
